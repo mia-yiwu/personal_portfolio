@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  <!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+   
+    
+    <style>
+        .header {
+            color: #36A0FF;
+            font-size: 27px;
+            padding: 10px;
+        }
+
+        .bigicon {
+            font-size: 35px;
+            color: #36A0FF;
+            padding-left:2%;
+        }
+        form div{
+            display:inline-block;
+            width: 90%;
+        }
+        button.btn{             /*Why couldn't I just use button?*/
+            display: block;
+            margin: 0 auto;
+        }
+
+</style>
+</head>
+    <body>
+
+   <div class="skip"><a href="#main">Skip to Main Content</a></div> 
+    <nav >
+        <ul>
+          <li><a href="#Protfolio">Portfolio</a></li>
+          <li><a href="#method">Me</a></li>
+          <li><a href="#clients">Contact</a></li>
+          <li><a href="#contact">Resume</a></li>
+          <li><a href="gal.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+  
+<!-- http://www.prepbootstrap.com/bootstrap-template/contact-form -->
+<main>
+<form class="form-horizontal" method="post">
+    <fieldset>
+
+        <legend class="text-center header">Contact us</legend>
+
+        <div class="form-group">
+            <label for="fname"><span aria-label="Please enter your first name"><i class="fa fa-user bigicon" aria-hidden="true"></i></span></label>
+            <div>
+                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="lname"><span aria-label="Please enter your last name"><i class="fa fa-user bigicon" aria-hidden="true"></i></span></label>
+            <div>
+                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email"><span aria-label="Please enter your email"><i class="fa fa-paper-plane bigicon" aria-hidden="true"></i></span></label>
+            <div>
+                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="phone"><span aria-label="Please enter your phone number"><i class="fa fa-phone-square bigicon" aria-hidden="true"></i></span></label>
+            <div>
+                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="message"><span aria-label="Please enter your message to us"><i class = "fas fa-pencil-alt bigicon" aria-hidden="true"></i></span></label>
+            <div>
+                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days."></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div>
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </div>
+        </div>
+    </fieldset>
+</form>
+</main>
+<footer>
+        <p>University of Michigan School of Information <br/>
+        &copy;Yi Wu</p>
+    </footer>
+</body>
+            
